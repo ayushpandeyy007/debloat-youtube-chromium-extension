@@ -1,0 +1,31 @@
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #secondary,
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #secondary-inner,
+html.ytc-hide-suggested
+  ytd-watch-flexy[is-two-columns_]
+  ytd-watch-next-secondary-results-renderer {
+  display: none !important;
+}
+
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #primary {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-right: 0 !important;
+}
+
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #primary-inner,
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #columns,
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #full-bleed-container,
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #below {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+html.ytc-hide-suggested ytd-watch-flexy[is-two-columns_] #columns {
+  display: block !important;
+}
+
+html.ytc-hide-home-chips ytd-feed-filter-chip-bar-renderer,
+html.ytc-hide-home-chips #chips-wrapper,
+html.ytc-hide-home-chips #chips {
+  display: none !important;
+}

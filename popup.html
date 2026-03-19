@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>YouTube Cleaner</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h2>YouTube Cleaner</h2>
+
+      <label class="row">
+        <input type="checkbox" id="hideShorts" />
+        <span>Hide all Shorts</span>
+      </label>
+
+      <label class="row">
+        <input type="checkbox" id="hideSuggested" />
+        <span>Hide suggested videos on watch page</span>
+      </label>
+
+      <label class="row">
+        <input type="checkbox" id="hideHomeChips" />
+        <span>Hide home chip bar</span>
+      </label>
+
+      <label class="row">
+        <input type="checkbox" id="hideSidebarExtras" />
+        <span>Hide Subscriptions and Explore sidebar sections</span>
+      </label>
+
+      <p class="hint">The current YouTube tab reloads after each change.</p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
